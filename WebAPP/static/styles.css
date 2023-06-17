@@ -1,0 +1,45 @@
+body{
+	font-size: 16px;
+	font-family: Open Sans, sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	line-height: 1.6;
+	padding: 20px;
+	border: 8px solid rgb(255, 136, 0);
+	margin: 2% 10%;
+	background: lightyellow;
+}
+
+header{
+	font-size: 1.6em;
+}
+
+header h1{
+	font-size: 1.8em;
+}
+
+.btn-info{
+	border: 1.5px solid rgb(255, 0, 0);
+	background-color: grey;
+	padding: 10px 15px;
+	margin: 15px;
+	box-shadow: 0 0 4px rgb(56, 55, 55);
+	cursor: pointer;
+	
+}
+
+.btn-info:hover{
+	background-color: aqua;
+	box-shadow: 0 0 10px #eee;
+}
+
+.ml-container{
+	font-size: 1.4em;
+}
+
+.ml-container textarea{
+	width: 100%;
+}
+
